@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height:  70px;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+nav li{
+    list-style: none;
+    padding: 0px 25px;
+    display: inline-block;
+}
+nav li p{
+    background-color: gainsboro;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+}
+header h1{
+    margin-left: 15px;
+}
+nav li a:hover{
+    color: crimson;
+}
